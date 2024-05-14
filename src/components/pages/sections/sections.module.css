@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url("../Navbar/Gilroy-ExtraBold.otf");
+  }
+.Container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    background: linear-gradient(79.63deg, #5b52a3 1.08%, #40b8ea);
+    border-radius: 37px;
+
+}
+
+.MainContent {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.Contents {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding:  60px 0 60px 0;
+}
+.ContentInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h1 {
+        font-size: 60px;
+        font-family: "Gilroy";
+        color: #fff;
+        line-height: 80px;
+    }
+    p {
+        margin-top: 10px;
+        color: #fff;
+        font-size: 24px;
+        font-family: "Gilroy";
+        line-height: 35px;
+    }
+    button {
+        margin-top: 32px;
+        width: 250px;
+        height: 58px ;
+        padding: 8px 16px;
+        border: none;
+        outline: none;
+        border-radius: 25px ;
+        background-color: #0dc143;
+        color: white;
+        font-weight: 900;
+        font-size: "Gilroy";
+    }
+}
+
+.ContentImage {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.PossitionImage {
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}

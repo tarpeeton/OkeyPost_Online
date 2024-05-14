@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("./Gilroy-ExtraBold.otf");
+}
+.Header {
+  width: 100%;
+  height: 118px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Container {
+  width: 94%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.FlexRow {
+  max-width: 1400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  li {
+    padding: 0 10px 0 10px;
+    list-style: none;
+    a {
+      color: #1f2428;
+      text-decoration: none;
+      font-weight: 100;
+      font-family: "Gilroy";
+      transition: all 0.2s ease-in-out;
+    }
+  }
+  li:hover a {
+    color: #0dc143;
+  }
+}
+
+.LinksRow {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logImage {
+  display: flex;
+  align-items: center;
+}
+
+.LoginButton {
+  width: 111px;
+  height: 54px;
+  border: none;
+  border-radius: 25px;
+  padding: 15px 20px;
+  background-color: inherit;
+  outline: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  letter-spacing: 1px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  span {
+    font-family: "Gilroy";
+    svg {
+      width: 22px;
+      height: 22px;
+    }
+  }
+}
+.LoginButton:hover {
+  background-color: rgb(164, 176, 196);
+  color: white;
+  border-radius: 30px;
+}
+.FeedBack {
+  background: linear-gradient(90deg, #00c97b, #00d981 96.96%);
+  border-radius: 60px;
+  padding: 16px 20px;
+  color: #fff;
+  font-weight: bold;
+  line-height: 14px;
+  border: none;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.FeedBack:hover {
+  background: linear-gradient(90deg, #1ef1a0, #08e58d 96.96%);
+}
