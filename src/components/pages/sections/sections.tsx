@@ -1,4 +1,4 @@
-import React  , {FC} from 'react';
+import {FC} from 'react';
 import style from "./sections.module.css"
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 

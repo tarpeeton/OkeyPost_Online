@@ -1,4 +1,4 @@
-import React  , {FC} from 'react';
+import { FC } from 'react';
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./pages/Navbar/Navbar"
 import Sections from "./pages/sections/sections"

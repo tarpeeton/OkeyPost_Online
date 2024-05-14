@@ -1,4 +1,5 @@
-import React, { FC } from "react";
+import { FC } from 'react';
+
 import { NavLink } from "react-router-dom";
 import style from "./Navbar.module.css";
 import { LazyLoadImage } from "react-lazy-load-image-component";
