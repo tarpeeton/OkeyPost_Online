@@ -8,6 +8,10 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  background-color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 2000;
 }
 
 .Container {
@@ -32,7 +36,7 @@ ul {
     a {
       color: #1f2428;
       text-decoration: none;
-      font-weight: 100;
+      font-weight: 800;
       font-family: "Gilroy";
       transition: all 0.2s ease-in-out;
     }
@@ -70,6 +74,7 @@ ul {
   cursor: pointer;
   span {
     font-family: "Gilroy";
+    font-weight: 800;
     svg {
       width: 22px;
       height: 22px;

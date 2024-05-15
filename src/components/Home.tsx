@@ -9,7 +9,7 @@ const Home: FC = (): JSX.Element =>  {
         <Routes>
             <Route path="/" element={
                 <div>
-                     <Navbar/>
+                      <Navbar/>
                       <Sections/>
                 </div>
 

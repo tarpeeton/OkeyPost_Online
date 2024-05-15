@@ -1,5 +1,9 @@
 @font-face {
     font-family: "Gilroy";
+    src: url("./Gilroy-Regular.ttf");
+  }
+  @font-face {
+    font-family: "GilroyDark";
     src: url("../Navbar/Gilroy-ExtraBold.otf");
   }
 .Container {
@@ -70,3 +74,100 @@
     justify-content: center;
     align-items: center
 }
+
+.Section {
+    width: 100%;
+    margin-top: 160px;
+    margin-bottom: 160px;
+
+}
+
+.Content {
+    max-width: 1400px;
+    height: 224px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+.Title {
+    max-width: 477px;
+    height: 100px;
+    line-height: 50px;
+    margin-bottom: 2rem;
+    font-family: "GilroyDark" ;
+    font-size: 29px;
+    color: rgb(46, 45, 45);
+}
+.SliderContent {
+    width: 100%;
+    border-radius: 8px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.PrevButton {
+    width: 100%;
+    height: 90px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    svg {
+        font-size: 21px;
+        color:#0dc143;
+        border: none;
+        outline: none;
+    }
+}
+.ItemsContent {
+    display: flex;
+    flex-direction: row;
+}
+
+.Items {
+    display: flex;
+    flex-direction: row;
+}
+
+.ItemInfo {
+    width: 210px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 5px 20px;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    p {
+        font-family: "Gilroy";
+        font-size: 14px;
+        line-height: 14px;
+        font-weight: 900;
+        margin: 15px 0 ;
+
+    }
+    span {
+        width: 52px;
+        height: 52px;
+    }
+}
+.ItemInfo:hover {
+    background-color: rgb(233, 243, 244);
+}
+.ButtonNext {
+    width: 5%;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
